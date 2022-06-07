@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	for (char c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);
 	}
 
-	return 0;
+	return (0);
 }
