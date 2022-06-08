@@ -1,4 +1,4 @@
-#include "main.h":
+#include "main.h"
 
 void print_alphabet(void)
 {
@@ -6,8 +6,7 @@ void print_alphabet(void)
 
 	for (i = 97; i <= 122; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-
 	_putchar('\n');
 }
