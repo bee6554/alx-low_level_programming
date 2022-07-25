@@ -45,6 +45,7 @@ void print_addr(char *ptr)
 
 			else if (ptr[i] < 0)
 				printf("%02x", 256 + ptr[i]);
+		
 		}
 	}
 	printf("\n");
